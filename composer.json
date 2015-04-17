@@ -1,0 +1,26 @@
+{	
+	"name": "Ukadev/ukaURL",
+    "description": "Simple URL Shortener using Blade Template System, Laravel Routing, Eloquent ORM and Bootstrap",
+    "keywords": ["mvc", "url", "shortener"],
+	"license": "MIT",
+	"type": "project",
+    "authors": [
+        {
+            "name": "Diego Pazos",
+            "email": "mail@ukadev.com"
+        }
+    ],
+	"require": {
+		"php": ">=5.3.4",
+		"illuminate/routing": "4.2.*",
+		"illuminate/events": "4.2.*",
+		"illuminate/database": "4.2.*",
+		"philo/laravel-blade": "2.*"
+	},
+	"autoload": {
+	 	"psr-0": {
+			"UkaURL": "app/src/"
+		}
+	},
+	"minimum-stability": "dev"
+}
