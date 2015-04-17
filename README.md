@@ -3,7 +3,6 @@
 [![Latest Unstable Version](https://poser.pugx.org/ukadev/uka-url/v/unstable.svg)](https://packagist.org/packages/ukadev/blogfolio) 
 [![License](https://poser.pugx.org/ukadev/blogfolio/license.svg)](https://packagist.org/packages/ukadev/blogfolio)
 # ukaURL
-Simple URL Shortener using 
 
 ### Tech
 This app is made using:
