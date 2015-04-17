@@ -12,7 +12,10 @@ This app is made using:
   - [Eloquent ORM](https://github.com/illuminate/database)
   - [Twitter Bootstrap](http://twitter.github.com/bootstrap/)
   - [jQuery](http://jquery.com)
- 
+
+### Demo
+http://url.ukadev.com/
+
 ### Installation
 In order to get this app working, you have to execute just a few steps (you must have composer installed):
 ```sh
