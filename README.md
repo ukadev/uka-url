@@ -17,7 +17,7 @@ This app is made using:
 http://url.ukadev.com/
 
 ### Installation
-In order to get this app working, you have to execute just a few steps (you must have composer installed):
+In order to get this app working, you have to execute just a few steps (you must have [composer](https://getcomposer.org/) installed):
 ```sh
 $ composer create-project ukadev/uka-url YOURFOLDER
 ```
