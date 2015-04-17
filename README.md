@@ -1,7 +1,7 @@
-[![Latest Stable Version](https://poser.pugx.org/ukadev/uka-url/v/stable.svg)](https://packagist.org/packages/ukadev/blogfolio) 
-[![Total Downloads](https://poser.pugx.org/ukadev/uka-url/downloads.svg)](https://packagist.org/packages/ukadev/blogfolio) 
-[![Latest Unstable Version](https://poser.pugx.org/ukadev/uka-url/v/unstable.svg)](https://packagist.org/packages/ukadev/blogfolio) 
-[![License](https://poser.pugx.org/ukadev/blogfolio/license.svg)](https://packagist.org/packages/ukadev/blogfolio)
+[![Latest Stable Version](https://poser.pugx.org/ukadev/uka-url/v/stable.svg)](https://packagist.org/packages/ukadev/uka-url) 
+[![Total Downloads](https://poser.pugx.org/ukadev/uka-url/downloads.svg)](https://packagist.org/packages/ukadev/uka-url) 
+[![Latest Unstable Version](https://poser.pugx.org/ukadev/uka-url/v/unstable.svg)](https://packagist.org/packages/ukadev/uka-url) 
+[![License](https://poser.pugx.org/ukadev/blogfolio/license.svg)](https://packagist.org/packages/ukadev/uka-url)
 # ukaURL
 Simple URL Shortener using Blade Template System, Laravel Routing, Eloquent ORM and Bootstrap
 
