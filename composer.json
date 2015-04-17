@@ -1,7 +1,7 @@
 {	
 	"name": "ukadev/uka-url",
     "description": "Simple URL Shortener using Blade Template System, Laravel Routing, Eloquent ORM and Bootstrap",
-    "keywords": ["mvc", "url", "shortener"],
+    "keywords": ["mvc", "url", "shortener", "Blade", "Eloquent", "Bootstrap", "Laravel Routing"],
 	"license": "MIT",
 	"type": "project",
     "authors": [
