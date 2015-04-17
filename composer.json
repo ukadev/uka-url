@@ -1,5 +1,5 @@
 {	
-	"name": "Ukadev/ukaURL",
+	"name": "ukadev/uka-url",
     "description": "Simple URL Shortener using Blade Template System, Laravel Routing, Eloquent ORM and Bootstrap",
     "keywords": ["mvc", "url", "shortener"],
 	"license": "MIT",
