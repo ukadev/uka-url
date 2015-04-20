@@ -36,6 +36,11 @@ $(document).ready(function() {
 	$('#inputResult').click(function(){
 		this.select();
 	});
+	if($('#notFound')){
+		setTimeout(function() {
+	        $("#notFound").fadeOut('slow')
+	    }, 5000);
+	}
 });
 
 function resetAll(){

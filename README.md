@@ -43,4 +43,5 @@ Configure the database information inside the file:
 ```sh
 /app/Config/Database.php
 ```
+
 And finally change your Document Root Folder to /public

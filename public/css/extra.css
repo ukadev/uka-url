@@ -115,3 +115,21 @@ a:hover{
   position: absolute;
   width: 100%;
 }
+#notFound{
+  width: 350px;
+  height: 50px;
+  margin:0 auto;
+  background: #772F2F;
+  border: 1px solid #681919;
+  font-size: 11pt;
+  color: #B96666;
+  outline: none;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+  padding-left: 15px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  line-height: 35pt; 
+}

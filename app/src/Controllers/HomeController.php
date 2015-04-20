@@ -118,7 +118,7 @@ class HomeController extends Illuminate\Routing\Controller {
 	| Helper function to redirect
 	|--------------------------------------------------------------------------
 	*/
-	function redirect($url = '/notFound') 
+	private function redirect($url = '/notFound') 
 	{
 	    if(!headers_sent()) 
 	    {
@@ -135,5 +135,11 @@ class HomeController extends Illuminate\Routing\Controller {
 	        echo '</noscript>';
 	        exit;
 	    }
+	}
+
+
+	public function getNotFound()
+	{
+		return $this->blade->view()->make('notFound');
 	}
 }
