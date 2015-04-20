@@ -39,7 +39,8 @@ CREATE TABLE `urls` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 ```
 
-And finally configure the database information inside the file:
+Configure the database information inside the file:
 ```sh
 /app/Config/Database.php
 ```
+And finally change your Document Root Folder to /public
