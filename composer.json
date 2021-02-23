@@ -12,9 +12,9 @@
     ],
 	"require": {
 		"php": ">=5.3.4",
-		"illuminate/routing": "4.2.*",
-		"illuminate/events": "4.2.*",
-		"illuminate/database": "4.2.*",
+		"illuminate/routing": "6.20.*",
+		"illuminate/events": "6.20.*",
+		"illuminate/database": "6.20.*",
 		"philo/laravel-blade": "2.*"
 	},
 	"autoload": {
