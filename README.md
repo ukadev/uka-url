@@ -1,24 +1,43 @@
-# Lumen PHP Framework
+# Uka-url URL Shortener
 
-[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
-[![Total Downloads](https://img.shields.io/packagist/dt/laravel/framework)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Stable Version](https://img.shields.io/packagist/v/laravel/framework)](https://packagist.org/packages/laravel/lumen-framework)
-[![License](https://img.shields.io/packagist/l/laravel/framework)](https://packagist.org/packages/laravel/lumen-framework)
+Powered by [Lumen](https://lumen.laravel.com/docs) ,[Bootstrap v5.0.0-beta2](https://getbootstrap.com/) and [jQuery-3.5.1](https://jquery.com/)
 
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
+## Installation
 
-## Official Documentation
+Execute the following commands:
 
-Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
+> - Open console/terminal and run `git clone https://github.com/ukadev/uka-url.git {folder}`
 
-## Contributing
+> - Enter into the cloned folder and run `composer install`
 
-Thank you for considering contributing to Lumen! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+> - Open the file .env and modify the following variables with yours:<br> 
+    `DB_CONNECTION=mysql`<br>
+    `DB_HOST=127.0.0.1`<br>
+    `DB_PORT=3306`<br>
+    `DB_DATABASE=homestead`<br>
+    `DB_USERNAME=homestead`<br>
+    `DB_PASSWORD=secret`<br><br>
+    If you want to add a value to the KEY variable of that file, you can execute the following command in the console/terminal and paste it there: 
+    <br>
+    `php -r "echo md5(uniqid()).\"\n\";"`
 
-## Security Vulnerabilities
+> - After configure the database variables, execute the command from the root of the application:<br>
+    `php artisan migate`
+    
+> - Configure your virtualhost to listen to public folder as root folder. You can use the next example if you want it (may require modifications):
 
-If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+````
+<VirtualHost *:80>
+    ServerAdmin webmaster@localhost
+    DocumentRoot /var/www/public
+        <Directory /var/www/public>
+                Options Indexes FollowSymLinks MultiViews
+                AllowOverride all
+                Order Deny,Allow
+                Allow from all
+                Require all granted
+        </Directory>
+        ErrorLog ${APACHE_LOG_DIR}/error.log
+        CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
+````
