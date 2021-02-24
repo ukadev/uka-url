@@ -1,30 +1,35 @@
 # Uka-url URL Shortener
 
-Powered by [Lumen](https://lumen.laravel.com/docs) ,[Bootstrap v5.0.0-beta2](https://getbootstrap.com/) and [jQuery-3.5.1](https://jquery.com/)
+Built with [Lumen 8.x](https://lumen.laravel.com), [Bootstrap v5](https://getbootstrap.com/) and [jQuery-3.5.1](https://jquery.com/)
+
+## Prerequisites
+
+To make the application working you are going to need:
+> - LAMP environment or equivalent with mod_rewrite enabled
+> - composer
 
 ## Installation
 
-Execute the following commands:
+Follow the next instructions:
 
-> - Open console/terminal and run `git clone https://github.com/ukadev/uka-url.git {folder}`
+> - Open console/terminal and run:<br>
+    `git clone https://github.com/ukadev/uka-url.git`
 
-> - Enter into the cloned folder and run `composer install`
+> - Enter into the cloned folder and run:<br>
+    `composer install`
 
-> - Open the file .env in the application root directory (if doesn't exists, copy it from .env.example) and modify the following variables with yours:<br> 
+> - Open the file .env in the application root directory (if doesn't exist, copy it from .env.example) and modify the following variables with your database connection details:<br> 
     `DB_CONNECTION=mysql`<br>
     `DB_HOST=127.0.0.1`<br>
     `DB_PORT=3306`<br>
     `DB_DATABASE=homestead`<br>
     `DB_USERNAME=homestead`<br>
-    `DB_PASSWORD=secret`<br><br>
-    If you want to add a value to the KEY variable of that file, you can execute the following command in the console/terminal and paste it there: 
-    <br>
-    `php -r "echo md5(uniqid()).\"\n\";"`
+    `DB_PASSWORD=secret`
 
 > - After configure the database variables, execute the command from the root of the application:<br>
-    `php artisan migate`
+    `php artisan migrate`
     
-> - Configure your virtualhost to listen to public folder as root folder. You can use the next example if you want it (may require modifications):
+> - Set up your virtual host to point to the folder called `public` as the website root folder. You can use the next example if you want it (may require modifications):
 
 ````
 <VirtualHost *:80>
@@ -41,3 +46,11 @@ Execute the following commands:
         CustomLog ${APACHE_LOG_DIR}/access.log combined
 </VirtualHost>
 ````
+
+
+### Extra notes 
+
+>- If you want to add a value to the KEY variable of the .env file, you can execute the following command in the console/terminal and paste it there:
+<br>
+   `php -r "echo md5(uniqid()).\"\n\";"`
+
