@@ -16,7 +16,7 @@
     </p>
     <div id="result">
         <div id="loading" class="hide"><i class="fa fa-cog fa-spin fa-5x"></i></div>
-        <div id="error" class="hide"></div>
+        <div id="error" class="hide ugly"></div>
         <div id="success" class="hide">
             <span class="fancy">Here is your Epic Url!</span>
             <input type="text" id="inputResult" value="" class="form-control"/>
