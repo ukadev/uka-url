@@ -10,7 +10,7 @@ Execute the following commands:
 
 > - Enter into the cloned folder and run `composer install`
 
-> - Open the file .env and modify the following variables with yours:<br> 
+> - Open the file .env in the application root directory (if doesn't exists, copy it from .env.example) and modify the following variables with yours:<br> 
     `DB_CONNECTION=mysql`<br>
     `DB_HOST=127.0.0.1`<br>
     `DB_PORT=3306`<br>
