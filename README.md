@@ -50,7 +50,6 @@ Follow the next instructions:
 
 ### Extra notes 
 
->- If you want to add a value to the KEY variable of the .env file, you can execute the following command in the console/terminal and paste it there:
-<br>
-   `php -r "echo md5(uniqid()).\"\n\";"`
+>- If you want to add a value to the KEY variable of the .env file, you can execute the following command in the console/terminal and paste it there:<br>
+    `php -r "echo md5(uniqid()).\"\n\";"`
 
