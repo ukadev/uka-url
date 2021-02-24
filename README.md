@@ -1,47 +1,24 @@
-[![Latest Stable Version](https://poser.pugx.org/ukadev/uka-url/v/stable.svg)](https://packagist.org/packages/ukadev/uka-url) 
-[![Total Downloads](https://poser.pugx.org/ukadev/uka-url/downloads.svg)](https://packagist.org/packages/ukadev/uka-url) 
-[![Latest Unstable Version](https://poser.pugx.org/ukadev/uka-url/v/unstable.svg)](https://packagist.org/packages/ukadev/uka-url) 
-[![License](https://poser.pugx.org/ukadev/blogfolio/license.svg)](https://packagist.org/packages/ukadev/uka-url)
-# ukaURL
-Simple URL Shortener using Blade Template System, Laravel Routing, Eloquent ORM and Bootstrap
+# Lumen PHP Framework
 
-### Tech
-This app is made using:
-  - [Blade Template System](https://github.com/PhiloNL/Laravel-Blade)
-  - [Laravel Routing](https://github.com/illuminate/routing)
-  - [Eloquent ORM](https://github.com/illuminate/database)
-  - [Twitter Bootstrap](http://twitter.github.com/bootstrap/)
-  - [jQuery](http://jquery.com)
+[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
+[![Total Downloads](https://img.shields.io/packagist/dt/laravel/framework)](https://packagist.org/packages/laravel/lumen-framework)
+[![Latest Stable Version](https://img.shields.io/packagist/v/laravel/framework)](https://packagist.org/packages/laravel/lumen-framework)
+[![License](https://img.shields.io/packagist/l/laravel/framework)](https://packagist.org/packages/laravel/lumen-framework)
 
-### Demo
-http://url.ukadev.com/
+Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
 
-### Installation
-In order to get this app working, you have to execute just a few steps (you must have [composer](https://getcomposer.org/) installed):
-```sh
-$ composer create-project ukadev/uka-url YOURFOLDER
-```
-Please note you have to replace YOURFOLDER with the name of the folder you want to install it
+## Official Documentation
 
-Then go to:
-```sh
-/app/Database/
-```
-and import the file named ukaurl.sql into your MySQL Database or just execute the next query:
-```sh
-CREATE TABLE `urls` (
-  `id` char(6) COLLATE utf8_unicode_ci NOT NULL,
-  `original` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
-  `counter` int(6) NOT NULL DEFAULT '0',
-  `created_at` timestamp NULL DEFAULT NULL,
-  `updated_at` timestamp NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
-```
+Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
 
-Configure the database information inside the file:
-```sh
-/app/Config/Database.php
-```
+## Contributing
 
-And finally change your Document Root Folder to /public
+Thank you for considering contributing to Lumen! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+
+## Security Vulnerabilities
+
+If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+
+## License
+
+The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
