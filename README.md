@@ -2,6 +2,8 @@
 
 Built with [Lumen 8.x](https://lumen.laravel.com), [Bootstrap v5](https://getbootstrap.com/) and [jQuery-3.5.1](https://jquery.com/)
 
+[Go directly to the screenshot](#screenshot)
+
 ## Prerequisites
 
 To make the application working you are going to need:
@@ -53,3 +55,6 @@ Follow the next instructions:
 >- If you want to add a value to the KEY variable of the .env file, you can execute the following command in the console/terminal and paste it there:<br>
     `php -r "echo md5(uniqid()).\"\n\";"`
 
+### Screenshot
+
+![](https://raw.githubusercontent.com/ukadev/ukadev/main/image_2021-02-25_000639.png)
