@@ -57,7 +57,4 @@ Follow the next instructions:
 
 ### ScreenShot
 
-![](https://raw.githubusercontent.com/ukadev/ukadev/main/image_2021-02-25_000639.png)
-### Screenshot
-
-![](https://raw.githubusercontent.com/ukadev/ukadev/main/image_2021-02-25_000639.png)
+![](https://raw.githubusercontent.com/ukadev/ukadev/main/4-0886c916ce7d.gif)
